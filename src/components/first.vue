@@ -1,5 +1,6 @@
 <template>
  <div id="first">
+    <p>first vue project£¬gbk you du¡£</p>
     <p>i am {{author}}</p>
  </div>
 </template>
