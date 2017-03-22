@@ -4,9 +4,9 @@ import Vue from 'vue'
 import App from './App'
 // import router from './router'
 import VueRouter from "vue-router"
-// import VueResource from 'Vue-resource'
+import VueResource from 'Vue-resource'
 Vue.use(VueRouter);
-// Vue.use(VueResource);
+Vue.use(VueResource);
 
 // Vue.config.productionTip = false;
 //定义组件
@@ -38,5 +38,8 @@ const app=new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App ,First,second}
+  components: { App},
+
+
+
 })

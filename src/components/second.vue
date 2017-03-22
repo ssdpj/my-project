@@ -3,6 +3,7 @@
     <p>second vue project</p>
     <p>i am {{author}}</p>
  </div>
+
 </template>
 
 <script>
