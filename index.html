@@ -5,7 +5,23 @@
     <title>my-project</title>
   </head>
   <body>
-    <div id="app">333333333333</div>
-    <!-- built files will be auto injected -->
+    <div id="app"><a href="javascript:new Date().toLocaleTimeString();">
+      What time is it?
+    </a>
+
+    </div>
+    <script>
+      var arr=["a.js","b.js"].forEach(function(src){
+         var script= document.createElement("script");
+           script.src=src;
+           script.onload=function(){
+               success();
+           };
+           script.onerror=function(){
+               alert("1")
+           };
+          document.body.appendChild(script);
+      })
+    </script>
   </body>
 </html>
